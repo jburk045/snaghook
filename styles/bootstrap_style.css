@@ -1,0 +1,216 @@
+.header_wrapper {
+	background-color: gold;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+/* problem here, I need the details page to have a white background and all other pages to have gold */
+.content_wrapper{
+	background-color: lightgray; 
+}
+
+
+#bs-navbar-collapse-1{
+	color:white;
+}
+
+
+/*
+ *
+ */
+ #dropdown_color{
+	width:100px;
+	margin-left: 10px;
+	background:white;
+	color:black;
+ }
+
+	
+/*
+ *
+ */
+ #dropdown_page{
+	width:100px;
+	margin-left: 10px;
+ }
+ 
+ 
+/*
+ *
+ */
+#pagination_details_xs li{
+	margin-left: 10px;
+	text-decoration:none;
+	background:white;
+	color:black;
+	padding:8px;
+	font-family:arial;
+	list-style:none;
+}
+
+
+#pagination_details_xs a {
+	margin-left: 10px;
+	text-decoration:none;
+	background:white;
+	color:black;
+	padding:8px;
+	font-family:arial;
+}
+
+
+/*
+ *
+ */
+#pagination_details li{
+	text-decoration:none;
+	background:white;
+	color:black;
+	padding:8px;
+	font-family:arial;
+	list-style:none;
+}
+
+
+#pagination_details a {
+	text-decoration:none;
+	background:white;
+	color:black;
+	padding:8px;
+	font-family:arial;
+}
+
+
+/*
+ * This is use to display each fish when multiple fish are displayed on a page 
+ * in the large and medium devices. This class is call in the functions class.
+ * It is used in the getFish(), get getFishSpecies(), getFishByPage() and 
+ * getResults() functions.
+ */
+.single_fish_md{
+	padding-top: 20px;
+	color: #000000;
+	min-height: 220px;      /* stops image spacing */
+	background-color: lightgray;
+}
+
+
+.single_fish_md h1{
+	color: #000000;
+}
+
+
+/*
+ * This is use to display each fish when multiple fish are displayed on a page 
+ * in the small devices. This class is call in the functions class. It is used 
+ * in the getFish(), get getFishSpecies(), getFishByPage() and getResults() 
+ * functions.
+ */
+.single_fish_sm{
+	padding-top: 20px;
+	color: #000000;
+	min-height: 220px;      /* stops image spacing */
+	background-color: lightgray;
+}
+
+
+.single_fish_sm h1{
+	color: #000000;
+}
+
+
+/*
+ * This is use to display each fish when multiple fish are displayed on a page 
+ * in the extra small devices. This class is call in the functions class. It is 
+ * used in the getFish(), get getFishSpecies(), getFishByPage() and getResults() 
+ * functions.
+ */
+ .single_fish_xs{
+	padding-top: 20px;
+	color: #000000;
+	background-color: lightgray;
+}
+
+
+.single_fish_xs h1{
+	color: #000000;
+}
+
+#reg img{
+	border: 1px solid black;
+}
+#reg{
+	background-color:white;
+}
+
+
+
+#reg p{
+	margin-left:50px;
+}
+
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+/* Large */
+.menubar{
+	background-color: blue;
+	margin-bottom: 0px;
+}
+
+/* Medium */
+.navbar{
+	background-color: Blue;
+	margin-bottom: 0px;
+	color: #000000;
+}
+
+
+#text_color{
+	margin-left: 10px;
+	color:white;
+}
+
+
+#text_color_xs{
+	margin-left: 10px;
+	background:blue;
+	color:white;
+}
+ 
+ 
+ /*
+  *
+  */
+#search_feature{
+	margin-left: 10px;
+	margin-right: 10px;
+	color:white;
+}
+
+
+#species_of_fish{
+    margin-left:30px;
+}
+
+
+.season_open{
+	color:black;
+}
+
+
+.season_closed{
+	color:red;
+}
+
+
+#footer{
+	color:white;
+	background-color: Blue;
+	padding: 30px;
+}

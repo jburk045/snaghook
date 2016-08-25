@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	background:#000000; 
+	background-image:url("../images/bg_yellowtail.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	/*background-image:url("../images/bg_ocean15.jpg");*/
+    /*background-position: center center;*/
+}
+
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background:white;
+}
+
+.header_wrapper{
+	width:1000px;
+	height:100px;
+	margin:auto;
+}
+
+#logo{
+	float:left;
+}
+
+#banner{
+	float:right;
+}
+
+.menubar{
+	width:1000px;
+	height:50px;
+	/*height:10px;*/
+	background:blue;
+	color:white;
+}
+
+#menu{
+	padding:0;
+	margin:0;
+	line-height:40px;
+	float:left;
+}
+
+#menu li{
+	list-style:none;
+	display:inline;
+	margin-left:30px;
+}
+
+#menu a {
+	text-decoration:none;
+	color:white;
+	padding:8px;
+	font-size:18px;
+	font-family:arial;
+}
+
+#menu a:hover{
+	color:gold;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+
+#pagination{
+	padding:0;
+	margin:0;
+	line-height:40px;
+	float:left;
+}
+
+#pagination li{
+	list-style:none;
+	display:inline;
+	margin-left:325px;
+}
+
+#pagination a {
+	text-decoration:none;
+	color:white;
+	padding:8px;
+	font-size:18px;
+	font-family:arial;
+}
+
+#pagination a:hover{
+	color:gold;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+#form{
+	margin:10px auto;
+	max-width: min-content;
+	line-height:50px;
+}
+
+.content_wrapper{
+	width:1000px;
+	height:800px;
+	margin:auto;
+}
+
+#content_area{
+	width:800px;
+	height:auto;
+	float:right;
+	background:white;
+	font-size:40;
+}
+
+#content_area li {
+	list-style:none;
+	margin-left:60px;
+}
+
+#down{
+	position:absolute;
+	bottom:0px;
+}
+
+#sidebar{
+	width:200px;
+	height:800px;
+	float:left;
+	background:blue;
+}
+
+#sidebar_title{
+	background:gold;
+	color:Black;
+	font-size:22px;
+	font-family:arial;
+	padding:10px;
+	text-align:center;
+}
+
+#cats{
+	text-align:center;
+}
+
+#cats li {
+	list-style:none;
+	margin:10px;
+}
+
+#cats a {
+	color:white;
+	padding:8px;
+	margin:5px;
+	text-align:center;
+	font-size:20px;
+	font-family:arial;
+	text-decoration:none;
+}
+
+#cats a:hover{
+	color:gold;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+#fish_box{
+	width:780px;
+	text-align:center;
+	margin-left:30px;
+	margin-right:10px;
+}
+
+.single_fish{
+	float:left;
+	font-size:20px;
+	list-style:none;
+	margin-left:30px;
+	padding:10px;
+}
+
+.single_fish img{
+	border:1px solid black;
+	/*background-color: rgba(0,0,0,0.1);*/
+}
+
+.single_fish a{
+color: #000; 	
+}
+
+.single_fish a:hover{
+color:red;
+transition: ease 0.5s;	
+}
+
+#reg{
+	text-align:left;
+	float:left;
+	font-size:20px;
+	list-style:none;
+	margin-left:50px;
+	margin-right:100px;
+	padding:10px;
+}
+
+
+#reg img{
+	border:2px solid black;
+}
+
+#footer{
+	width:1000px;
+	height:100px;
+	background:gold;
+	/*background:#FF0080;*/
+	clear:both;
+}
+
+li{
+	margin-left:50px;
+	font-family:arial;
+}
+
+h2{
+	text-align:center;
+	padding:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
